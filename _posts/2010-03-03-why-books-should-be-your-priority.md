@@ -1,18 +1,23 @@
 ---
 date: 2018-11-22 12:26:40
 layout: post
-title: Why books should be your priority?
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559822138/theme9_v273a9.jpg
-optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559822138/theme9_v273a9.jpg
-category: life
+title: Machine Learning in Bioinformatics With Python
+subtitle: Intro of the series 
+description: Do you know what is Artificial Intelligence? Let's learn Machine Learning basics in PYTHON. This is a series for people who have a background of Biology and are willing to learn Bioinformatics.
+optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/c_scale,w_380/v1596574639/0001MLINBINF_qckhlc.png
+
+
+category: Machine Learning
 tags:
-  - books
-  - read
+  - Python
+  - ML
+  - Beginner
 author: thiagorossener
 paginate: true
 ---
+
+{% include youtube_embed.html id="YIdL6sJSoGE" %}
+
 
 Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
 
@@ -135,13 +140,3 @@ Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, conse
 <!--page-->
 
 Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-
-
-
-
-
-
-
-
-
