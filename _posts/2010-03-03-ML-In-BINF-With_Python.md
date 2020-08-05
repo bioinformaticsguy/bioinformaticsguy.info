@@ -3,7 +3,10 @@ date: 2018-11-22 12:26:40
 layout: post
 title: Machine Learning in Bioinformatics With Python
 subtitle: Intro of the series
-description: Do you know what is Artificial Intelligence? Let's learn Machine Learning basics in PYTHON. This is a series for people who have a background of Biology and are willing to learn Bioinformatics.
+description: Let's learn Machine Learning basics in PYTHON. This is a series for people who have a background of Biology and are willing to learn Bioinformatics.
+series: ML For BINF
+series_sing: true
+video_number: 1
 optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/c_scale,w_380/v1596574639/0001MLINBINF_qckhlc.png
 
 
