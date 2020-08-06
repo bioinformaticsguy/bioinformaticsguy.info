@@ -12,7 +12,7 @@ description: If you have never learned programing language and you are from the 
 optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/c_scale,h_380/v1596701389/002%20Python-for-Bioinformatics/Python-for-Bioinformatics-002.png
 
 
-category: Machine Learning
+category: Python Basics
 tags:
   - Python
   - Basics
@@ -23,4 +23,5 @@ paginate: true
 
 {% include youtube_embed.html id="KUXgAjSz4ro" %}
 
+> Website is under developement written material will be added soon!
 

@@ -3,11 +3,9 @@ name: Bioinformatics Guy
 title: Bioinformatics Guy
 description: Let's explore what is Bioinformatics.
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - Bioinformatics
+  - Programming
+  - Python
 show_hero: false
 menu:
   - title: Home
@@ -34,7 +32,7 @@ linkedin_username: alihassan1697
 
 # Posts Settings
 show_time_bar: true
-show_modal_on_exit: false
+show_modal_on_exit: true
 show_modal_on_finish_post: true
 two_columns_layout: true
 
@@ -100,4 +98,4 @@ exclude: [
 ]
 
 # Theme
-version: v1.0.0
+# version: v1.0
