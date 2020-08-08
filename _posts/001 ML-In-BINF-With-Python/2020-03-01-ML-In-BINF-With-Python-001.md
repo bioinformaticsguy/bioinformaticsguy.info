@@ -19,5 +19,27 @@ paginate: true
 
 {% include youtube_embed.html id="YIdL6sJSoGE" %}
 
+### Welcome to the series **Machine learning in Bioinformatics**. 
 
-> Website is under developement written material will be added soon!
+If you are from the background of biology you don't need to get scared of this fancy word machine learning. This series is specifically designed for those people who dont know much about programming languages but recently they got really curious how things are done and Bioinformatics. 
+
+So, if you are a person who wants to move from using the softwares to developing the softwares this series is made for you in this series we will be learning about:
+
+- Downloading the data from [UCI repository](https://archive.ics.uci.edu/ml/index.php) .
+- Pre-process that data, so that it is ready to use.
+- Finding out the features and labels from the data.
+- Developement of the Machine Learning models.
+- Saving those trained models in a file
+- Eventually, getting those models to work and make some predictions. 
+
+#### Prerequisites to follow along
+You don't need a lot of softwares for this series all you need is to install [Python](https://www.python.org/downloads/) and a few libraries of Python you will need [pandas](https://pandas.pydata.org/), [numpy](https://numpy.org/) , [pickle](https://pypi.org/project/pickle-mixin/) most of the time pickle is already installed and the last and very important library [scikit-learn](https://scikit-learn.org/stable/) so go ahead install python and these few libraries just by entering these lines in the terminal one by one.
+
+{% highlight python %}
+$ pip install pandas
+$ pip install numpy
+$ pip install pickle4
+$ pip install -U scikit-learn
+{% endhighlight %}
+
+Once you have successfully installed these libraries and get back here so that we can start working on Machine Learning in Bioinformatics.
