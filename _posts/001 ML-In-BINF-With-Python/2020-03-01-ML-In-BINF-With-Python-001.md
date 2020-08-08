@@ -29,7 +29,7 @@ So, if you are a person who wants to move from using the softwares to developing
 - Pre-process that data, so that it is ready to use.
 - Finding out the features and labels from the data.
 - Developement of the Machine Learning models.
-- Saving those trained models in a file
+- Saving those trained models in a file.
 - Eventually, getting those models to work and make some predictions. 
 
 #### Prerequisites to follow along
