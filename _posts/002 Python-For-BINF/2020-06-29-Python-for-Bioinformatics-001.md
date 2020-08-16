@@ -25,8 +25,7 @@ paginate: true
 
 > Website is under developement written material will be added soon!
 
-
- <!-- how you doing guys by the meta sky here
+<!-- how you doing guys by the meta sky here
 and I am back with a brand new video
 series so let me tell you this I'm not
 gonna get in this outfit for the whole
@@ -150,7 +149,4 @@ comments questions or concerns just let
 me know in the comments down below thank
 you very much for watching and I will
 see you around in the next video
-[Music] 
-
-
- -->
+[Music]  -->
