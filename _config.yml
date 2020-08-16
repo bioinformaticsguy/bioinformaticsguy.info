@@ -10,10 +10,10 @@ show_hero: false
 menu:
   - title: Home
     url: /
-  # - title: About
-  #   url: /about
-  # - title: Contact
-  #   url: /contact
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
   # - title: Feed
   #   url: /feed.xml
 email: bioinformaticsguy@gmail.com
