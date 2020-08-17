@@ -23,43 +23,29 @@ paginate: true
 
 > Website is under developement written material will be added soon!
 
+<!-- ### What is pre-processing?
 
-<!-- 
+Just like in the previous article [DOWNLOADING DATA from UCI RREPOSITORY](/ML-In-BINF-With-Python-002) of this series you have seen that raw data on it's own was not making any sense to us so we took the help from the data descriptive file "breast-cancer-wisconsin.names" and created a CSV file. We opened it in Excel to see what is this data trying to tell us. By the same token raw data does not make much sense to the machine learning models and they cannot process the data on it's own. So, we have to follow a few rules/steps to make that data understandable by machine learning models which is known as pre-processing!
 
-hating guys bioinformatics guy here and
-welcome to another video of the series
-machine learning in bioinformatics in
-this video we will be talking about the
-pre-processing of their era so what is
-pre-processing just like in the previous
-video you have seen that that era on its
-own but not making any sense to us so we
-use the name soil and created a CSV file
-and open it in Excel to see what is this
-data trying to tell us by the same token
-the machine learning models cannot
-understand and they cannot process the
-data on its own so we have to follow a
-few rules and we have to make that data
-understandable by that machine learning
-model so pre-processing mostly includes
-removing the unwanted values removing
-those values which are going to confuse
-a machine learning model and sometimes
-following the conventions is also a part
-of pre-processing so let's get started
-as you can see that this is the ID
-column and this the purpose of this ID
-column is just to recognize the sample
-it is not adding the information to the
-definition of this class right over here
-so we have to remove it before feeding
-it to our machine learning model the
-next thing is the missing values most of
-the times in the data the missing values
-are represented by question marks or n a
-n in this era we can see that the
-missing values are represented by the
+> Pre-processing mostly includes removing the unwanted values, removing those values which are going to confuse a machine learning model and sometimes following the conventions is also a part of pre-processing.
+
+Our "data.csv" file should have 11 columns. The first column contains the ID's. The purpose of this ID
+column is just to recognize the sample. It has no link with the class (benign/malignant) of a data point. ID column is not only useless for developing ML model but it will also confuse our model which will eventually lead to the poor accuracy. So, we have to remove it before feeding it to our machine learning model. See the data table below for reference.
+
+{% highlight python %}
+|id     |ClumpThick|UniSize|UniShape|MargAd|SingEpiCelSize|Bare Nuc|BlandChr|NormalNuc|Mito|Class|
+|-------|----------|-------|--------|------|--------------|--------|--------|---------|----|-----|
+|1002945|5         |4      |4       |5     |7             |10      |3       |2        |1   |2    |
+|1015425|3         |1      |1       |1     |2             |2       |3       |1        |1   |2    |
+|1016277|6         |8      |8       |1     |3             |4       |3       |7        |1   |2    |
+|1017023|4         |1      |1       |3     |2             |1       |3       |1        |1   |2    |
+|1017122|8         |10     |10      |8     |7             |10      |9       |7        |1   |4    |
+{%endhighlight%}
+
+Next thing is the missing values most of the times in the data the missing values are represented by "NA", "99999" or "?". It was mentioned in the ".
+
+
+In this Data you will be able to see see that the missing values are represented by the
 question mark so question mark is not a
 numeric value and if we will feed these
 this data right away the program is
@@ -190,4 +176,5 @@ we will be talking about defining the
 features and the label do subscribe if
 you haven't already so that you don't
 miss my videos I will see you around in
-my next videos  -->
+my next videos -->
+

@@ -1,18 +1,17 @@
 {% if site.two_columns_layout %}
  <aside class="see-also">
    <h2>{{ site.translations.text.see_also | default: "Series Videos" }}</h2>
-   
-    {% for post in site.posts %}
-    {% if page.series == post.series %}
+   {% for post in site.posts %}
+        {% if page.series == post.series %}
         <a style="{% if page.url == post.url %} color:red;
-        }"
-    {% endif %}
+        }
+    {%endif%}"
 
          href="{{post.url}}"> <h3> {{post.video_number}}: {{post.title}} </h3>
 
-      </a><br>
+      </a></li><br>
 
-    {% endif %}
+        {% endif %}
 
    {% endfor %}
  </aside>

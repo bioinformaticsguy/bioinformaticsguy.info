@@ -26,7 +26,7 @@ Let's start by downloading the data and then exploring it what is inside this da
 
 For the sake of this tutorieal we will be using the data from UCI Machine learning repository which is a very well known and famous repository for data sets used to develop ML models. Most of these data sets are ready to be used that is why it makes them best to be used for the purpose of the explaining the basics of ML implemenatation using python.Even though the data set is in pretty good shape we will still need to make some adjustments to use it for traiing our ML models (you can find the details in the next post)
 
-Since we are working on the very basic application of machine learning in bioinformatics we are using the [breast cancer data]( ) (just click on the breast cancer data and it will take  you to the website to download the files). You can read some details about the data in the table given below on this website. Click on the data folder and then download 
+Since we are working on the very basic application of machine learning in bioinformatics we are using the [breast cancer data](http://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+%28diagnostic%29) (just click on the breast cancer data and it will take  you to the website to download the files). You can read some details about the data in the table given below on this website. Click on the data folder and then download 
 this file "breast-cancer-wisconsin.data". You can open this file in any of the text edittors. Once you open the file you will see rown of numbers seprated with commas. A few of the top rows from that data file are shown below:
 
 {% highlight python %}
