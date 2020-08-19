@@ -20,9 +20,9 @@ paginate: true
 
 {% include youtube_embed.html id="LdOvcvVuPxA" %}
 
-Let's start by downloading the data and then exploring it what is inside this data to find out:
+Let's start by downloading the data and then exploring it what is inside this data to find out the answer to the following question.
 
-> "How can we can use this data for developing our machine learning (ML) model to Make some predictions?"
+<p class="my-class">"How can we can use this data for developing our machine learning (ML) model to make some predictions?"</p>
 
 For the sake of this tutorieal we will be using the data from UCI Machine learning repository which is a very well known and famous repository for data sets used to develop ML models. Most of these data sets are ready to be used that is why it makes them best to be used for the purpose of the explaining the basics of ML implemenatation using python.Even though the data set is in pretty good shape we will still need to make some adjustments to use it for traiing our ML models (you can find the details in the next post)
 

@@ -21,9 +21,7 @@ paginate: true
 
 {% include youtube_embed.html id="V8zwd42gDNk" %}
 
-> Website is under developement written material will be added soon!
-
-<!-- ### What is pre-processing?
+### What is pre-processing?
 
 Just like in the previous article [DOWNLOADING DATA from UCI RREPOSITORY](/ML-In-BINF-With-Python-002) of this series you have seen that raw data on it's own was not making any sense to us so we took the help from the data descriptive file "breast-cancer-wisconsin.names" and created a CSV file. We opened it in Excel to see what is this data trying to tell us. By the same token raw data does not make much sense to the machine learning models and they cannot process the data on it's own. So, we have to follow a few rules/steps to make that data understandable by machine learning models which is known as pre-processing!
 
@@ -42,139 +40,59 @@ column is just to recognize the sample. It has no link with the class (benign/ma
 |1017122|8         |10     |10      |8     |7             |10      |9       |7        |1   |4    |
 {%endhighlight%}
 
-Next thing is the missing values most of the times in the data the missing values are represented by "NA", "99999" or "?". It was mentioned in the ".
+Now we can directly read our CSV file that we created in the previous article [DOWNLOADING DATA from UCI RREPOSITORY](/ML-In-BINF-With-Python-002). Let's store that file in the variable data and then in order to drop the column we will use the drop function. 
+
+{% highlight python %}
+data = pd.read_csv("data.csv")
+data.drop(['id'], inplace = True, axis = 1)
+print(data.head())
+{% endhighlight %}
 
 
-In this Data you will be able to see see that the missing values are represented by the
-question mark so question mark is not a
-numeric value and if we will feed these
-this data right away the program is
-going to consider it as a string so we
-have to change it to a numeric value
-most of the times the missing values are
-converted into minus 9 9 9 so we have to
-change this question mark to minus nine
-nine nine all the question marks in the
-data so next thing is more of a
-convention so it's not compulsory to do
-this but it's a good idea to follow that
-you can see that in this class column
-there are only twos and fours we have
-also read this in the names file
-the last video it was written over there
-that Tori's to represents the benign and
-poor represents the malignant tumors
-this is a binary data there are only two
-conditions like the tumor is either
-benign or it's malignant the convention
-of the binary data is that it is
-supposed to be in zeros and one so we
-will change this to two zero and four to
-one so then the zero will be
-representing benign and poor will be
-representing malignant so let's start
-writing our code now we can directly
-read our CSV file that we created in the
-last video so we will comment this out
-and reading the file is similar so we
-just have to change the name of the file
-over here there are our CSV so we have
-imported our file now we have to drop
-the ID column if you want to see how
-Dera looks in Python you can write print
-data dot head rather than printing the
-whole data data dot had just print the
-few of the columns and it just gives the
-rough idea of the data how the develops
-so let's run this and see how it looks
-so as you can see that there are five
-rows and eleven columns and ID column is
-included right now so we have to remove
-this ID column and removing the ID
-column is also very simple
-there are dot drop we are going to drop
-a column now we have to mention the name
-of our column which is ID since we don't
-want to replace it with any other thing
-so we will keep in place equal to true
-since we want to remove a column so we
-we have to specify that access equal to
-one so this is going to drop the ID
-column now let's print at after the ID
-column is drawn you can see that the ID
-column is drop and now there are only
-ten columns now we have to place the
-missing values okay and in order to
-replace the missing values we there is a
-replace function so data dot replace now
-we have to tell this function but what
-do we want to replace so we want to
-replace question marks with minus nine
-nine nine nine nine five nines and we
-also don't want to we also not want to
-replace with anything so we will keep in
-place equals to true so this line of
-course we will change the missing values
-now the next thing is we have to change
-the force in this class to one and the
-twos into zero so we will be using the
-map function and the map functions
-requires and other functions to follow
-so we will have to define our function
-which will return one if the value is
-four and zero if the value is two today
-we are going to learn how to define a
-function in Python so dei f this is the
-keyword to define a function and next is
-the name of the function return ten
-binary and in the parenthesis we have to
-mention the arguments or the inputs that
-we are going to
-to the function so we will check that if
-x equals two for return 1 else return
-zero all right so we have created our
-function the next thing is to use this
-function so we have to use this function
-or this on this class column so we will
-write down data in the parent issues we
-will write the name of the name of our
-column class and next dot now we are
-going to use the map function map and in
-the parenthesis we have to write down
-the name of the function that we just
-defined return bin so let's run this
-code and see if the class is now in the
-binary oh there is an error so the tea
-is supposed to be Cavanaugh we also have
-to write the print statement again tarah
-dot head all right so now you can see
-that all the tools are changed to 0 and
-the 4 is change 1 so that's all we are
-going to do but I also want to share a
-track with you you can see that we have
-to write down four to five lines of code
-to change the classes to ones and zeros
-let me tell you that you can do the same
-thing in just one line you can do that
-by using the lambda functions lambda is
-an anonymous function and it is only
-created when it's needed we are going to
-use the same line so we just have to
-define our lambda function over here so
-L am BD a lambda and this is our input
-so it will return 1 if x equals 2 for
-else 0
-so this these five lines and this last
-line is going to do the same thing let's
-print the header again you can see that
-we got the same result so this is a very
-basic kind of data there are only two
-classes so that's all the pre-processing
-we are going to need for this data so
-that's all for today in the next video
-we will be talking about defining the
-features and the label do subscribe if
-you haven't already so that you don't
-miss my videos I will see you around in
-my next videos -->
+The last line in the code block above is to just print the few of the columns and rows to have the rough idea of the data how it looks. So, you can see that the ID column is not there any more. 
 
+{% highlight python %}
+
+|ClumpThick|UniSize|UniShape|MargAd|SingEpiCelSize|Bare Nuc|BlandChr|NormalNuc|Mito|Class|
+|----------|-------|--------|------|--------------|--------|--------|---------|----|-----|
+|5         |4      |4       |5     |7             |10      |3       |2        |1   |2    |
+|3         |1      |1       |1     |2             |2       |3       |1        |1   |2    |
+|6         |8      |8       |1     |3             |4       |3       |7        |1   |2    |
+|4         |1      |1       |3     |2             |1       |3       |1        |1   |2    |
+|8         |10     |10      |8     |7             |10      |9       |7        |1   |4    |
+
+{%endhighlight%}
+
+
+Next thing is the missing values most of the times in the data the missing values are represented by "NA", "99999", "-99999" or "?". According to the ".names" file the missing values in this data are denoted by question marks "?". It is a symbol and is nnot a numeric value so if we will feed this data right away the program is going to consider it as a sitring and we will end up with an error. We have to change it to a numeric value most of the times the missing values are converted into "-99999" so we have to replace all the question marks in the data with "-99999". You can replace all the values by using replace() function with this simple one line of code.
+
+{% highlight python %}
+data.replace('?', -99999, inplace = True)
+{% endhighlight %}
+
+
+Last thing is more of a convention so it's not compulsory to do this step but it's a good idea to follow conventionns. You can see that in this class column (which is the last column of the data) there are only twos and fours we have also read this in the ".names" file that 2's represent the benign and 4's represent  the malignant tumors. This is a binary data there are only two conditions like the tumor is either
+benign or malignant. The convention of the binary data is that it is supposed to be in zeros and ones so we
+will change all the 2's in the last column to zero and all the 4's int he last coolumn to one. Ten the zero will be representing benign and 1 will be representing malignant. 
+
+Now there are two ways. The second way is one line code but some people find is complicated so let's look at the first way. First we will need to define a function retBin(x) that will return 1 if the given value "x" is equal to 4 other wise it will return 0. Then we will use the map() function on the "Class" column to replace all the values accordingly.
+
+{% highlight python %}
+def retBin(x):
+    if x == 4:
+        return 1
+    else:
+        return 0
+
+data["Class"] = data["Class"].map(retBin)
+{% endhighlight %}
+
+
+Let me tell you that you can do the same thing in just one line you can do that by using the lambda functions. Lambda is an anonymous function and that is why it does not has a unique name so every lambda function that you will define has the same name lambda. The most ammazing thing about lambda functions is that You can define simple functios in just one line. Than we can add that line in place of the name of our self defined FIVE line function "retBin(x)". Just by comparing the two functions you can make sense of how the lambda functions are defined.
+
+{% highlight python %}
+data["Class"] = data["Class"].map(lambda x: 1 if x == 4 else 0)
+{% endhighlight %}
+
+Print the head of the data and you will be able to see that the whole "Class" column is now contains zeros and ones. This is a very basic kind of data there are only two classes so that's all the pre-processing
+we are going to need for now. In the next article we will be talking about defining the features and the labels.
