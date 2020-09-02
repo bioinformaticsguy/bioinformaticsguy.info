@@ -23,77 +23,42 @@ paginate: true
 
 {% include youtube_embed.html id="9wrU09vIbYE" %}
 
-> Website is under developement written material will be added soon!
+Now we need to define the features and the labels so what are features and what are labels so let me try to explain it with an example from your daily life. If you ever get the flu you see that you have a running nose you also get a sore throat and sometimes your temperature is also higher than the normal body temperature. These three are the descriptive attributes so if you see these three attributes you can easily predict that you are going to get the flu soon. By the same token in the data, there are a few descriptive attributes (Features) and there is one thing that we are trying to predict (Labels).
 
-<!-- 
- hi guys
-bye informatics guy here and welcome to
-another video of the series machine
-learning in Bantam Attucks in this video
-we will be talking about defining the
-features and the label so what are
-features and what are labels so let me
-try to explain it with an example from
-your daily life if you ever get flu you
-see that you have a running nose you
-also get sore throat and sometimes your
-temperature is also higher than the
-normal body temperature these three are
-the descriptive attributes so if you see
-these three attributes you can easily
-predict that you are going to get flu
-really soon by the same token in the
-data there are a few descriptive
-attributes and there is one thing that
-we are trying to predict so let's get
-started it totally depends upon us but
-we are what we want to predict
-we can protect any column from this but
-since we are doing the binary
-classification we will choose a column
-in which there are only two different
-values and that is this class column so
-the class is going to be the Labour
-let's see what are going to be your
-features so you can see that these nine
-columns have different values and they
-are defining the weather our class is
-going to be benign or malignant so we
-can simply choose these nine columns as
-our features and the last column of
-class as our labels let's start adding
-our code taken and mostly works with the
-numpy array so we have to import the
-numpy library and if you have watched my
-first video you already have installed
-all the required libraries that are
-needed for the series so import as NP
-now in machine learning the features are
-mostly represented by a capital X
-capital X will be and P dot array and we
-already know that in the features the
-class label is not going to be included
-so we have to drop the class level and
-the axis is going to be one all right
-let's print ax and see how it looks
-Oh what is the problem Oh axis supposed
-to be capital so this is our X it is not
-going to make any sense because now it's
-my array but we can see that the class
-labor is not here next is we have to
-define the labor in machine learning the
-labels are mostly defined by the small Y
-so Y is NP dot R a so we only have to
-select the class column here we can
-print Y and see how it looks so you can
-see that these are all the ones and
-zeros that are that are present in our
-class so that's all for this video the
-next video is going to be really
-interesting in the next video we will be
-training and testing the models so do
-subscribe if you haven't already thank
-you very much for watching and I will
-see you around in the next video 
+A lot of things about the data can be predicted using ML models. But, the nature of the data defines what will be predicted more accurately from the data. The most basic form of prediction is Binary Classification. Binary classification is like answering Yes or No to a question. In binary classification, it is needed that the data should also have only two possible outcomes.
 
- -->
+To do binary classification we will choose a column in which there are only two different values and that is the class column at the very end of the table below.
+
+{% highlight python %}
+|ClumpThick|UniSize|UniShape|MargAd|SingEpiCelSize|Bare Nuc|BlandChr|NormalNuc|Mito|Class|
+|----------|-------|--------|------|--------------|--------|--------|---------|----|-----|
+|5         |4      |4       |5     |7             |10      |3       |2        |1   |0    |
+|3         |1      |1       |1     |2             |2       |3       |1        |1   |0    |
+|6         |8      |8       |1     |3             |4       |3       |7        |1   |0    |
+|4         |1      |1       |3     |2             |1       |3       |1        |1   |0    |
+|8         |10     |10      |8     |7             |10      |9       |7        |1   |1    |
+{%endhighlight%}
+
+The class is going to be the Label for each of the data points in our data set. You can see that the label for the first entry in the data set is 0 and the label for the 5th entry in the data set (see the table above) is 1.
+
+ Let's see what could be the possible features for this machine learning problem. You can see that there are nine columns. All of these columns have different values. Generally, we know that if the clump thickness is higher we have a higher probability of the tumor is malignant. Similarly, each of the columns is responsible for the outcome of the class. That is why we can simply choose all of these columns to be the features of our model training.
+ 
+ 
+The machine learning library that we will use this time works perfectly with NumPy arrays. So, let's import the required libraries. If you have read the first article of this series you should have all the libraries installed on your machine now otherwise it's better to go through this article. 
+
+{% highlight python %}
+import nnumpy as np
+{% endhighlight %}
+
+
+In machine learning, the features are mostly represented by a capital X. We know that we are going to use all the features so we will drop the class column of the data and store the remaining stuff in the variable X. Next is to store the labels. In machine learning, the labels are mostly defined by the small y. We can store the class column in the y variable. 
+
+{% highlight python %}
+X = np.array(data.drop(["Class"], axis = 1))
+y = np.array(data["Class"])
+{% endhighlight %}
+
+
+That's all for this article. Our features and labels are ready for model training. So in the next article, we will be training and testing out models.
+
+
