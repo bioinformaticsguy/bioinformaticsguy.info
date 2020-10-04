@@ -1,5 +1,5 @@
 ---
-date: 2020-07-15 12:26:40
+date: 2020-09-01 12:26:40
 layout: post
 title: EXPRESSIONS
 subtitle: Operators and operands make EXPRESSIONS.
