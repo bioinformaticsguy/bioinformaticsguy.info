@@ -6,6 +6,7 @@ subtitle: Getting the data
 series: A Beginner's Guide to AI in Bioinformatics with Python
 series_sing: true
 video_number: 2
+video_id: LdOvcvVuPxA
 description: How to download the data from UCI Machine Learning Repository!
 optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/c_scale,h_380/v1596696392/Machine%20Learning%20For%20Bioinformatics/MLINBINF-002.png
 
@@ -18,7 +19,7 @@ author: alihassan
 paginate: true
 ---
 
-{% include youtube_embed.html id="LdOvcvVuPxA" %}
+{% include youtube_embed.html %}
 
 Let's start by downloading the data and then exploring it what is inside this data to find out the answer to the following question.
 

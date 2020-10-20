@@ -7,6 +7,7 @@ subtitle: How to select the features and lables from the data!
 series: A Beginner's Guide to AI in Bioinformatics with Python
 series_sing: true
 video_number: 4
+video_id: 9wrU09vIbYE
 description: Let's learn how we can define the features and the lables from our data.
 
 
@@ -21,7 +22,7 @@ author: alihassan
 paginate: true
 ---
 
-{% include youtube_embed.html id="9wrU09vIbYE" %}
+{% include youtube_embed.html %}
 
 Now we need to define the features and the labels so what are features and what are labels so let me try to explain it with an example from your daily life. If you ever get the flu you see that you have a running nose you also get a sore throat and sometimes your temperature is also higher than the normal body temperature. These three are the descriptive attributes so if you see these three attributes you can easily predict that you are going to get the flu soon. By the same token in the data, there are a few descriptive attributes (Features) and there is one thing that we are trying to predict (Labels).
 

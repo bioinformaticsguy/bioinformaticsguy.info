@@ -6,6 +6,7 @@ subtitle: After the model is trained we save them.
 series: A Beginner's Guide to AI in Bioinformatics with Python
 series_sing: true
 video_number: 6
+ideo_id: C2vAMliBt58
 description: PICKLING is the process of saving something in python. Let's use it to save out trained models.
 
 optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/c_scale,h_380/v1596696392/Machine%20Learning%20For%20Bioinformatics/MLINBINF-006.png
@@ -19,7 +20,7 @@ author: alihassan
 paginate: true
 ---
 
-{% include youtube_embed.html id="C2vAMliBt58" %}
+{% include youtube_embed.html %}
 
 
 > Website is under developement written material will be added soon!

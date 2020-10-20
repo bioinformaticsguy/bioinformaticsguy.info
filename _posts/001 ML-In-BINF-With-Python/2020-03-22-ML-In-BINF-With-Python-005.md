@@ -8,6 +8,7 @@ subtitle: We need to train and test the models and finding out the model with be
 series: A Beginner's Guide to AI in Bioinformatics with Python
 series_sing: true
 video_number: 5
+video_id: dhBvm3whRUE
 description: In order to make predicitons we need to train a few models and then to test them to see which one performs the best.
 optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/c_scale,h_380/v1596696392/Machine%20Learning%20For%20Bioinformatics/MLINBINF-005.png
 
@@ -16,14 +17,14 @@ tags:
   - Python
   - Machine Learning
   - Beginner
-author: alihassan
+author: aliHassan
 paginate: true
 ---
 
-{% include youtube_embed.html id="dhBvm3whRUE" %}
+{% include youtube_embed.html %}
 
 
-> Website is under developement written material will be added soon!
+> Website is under developement written material will be added soon!!!!
 
 
  <!-- hiring guys by informatics guy here and

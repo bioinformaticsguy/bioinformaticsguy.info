@@ -5,7 +5,7 @@ description: Let's talk about Bioinformatics Guy!
 permalink: /about/
 ---
 
-<img class="img-rounded" src="/assets/img/uploads/profile.jpg" alt="Ali Hassan" width="200">
+<img class="img-rounded" src="/assets/img/uploads/aliHassan.jpg" alt="Ali Hassan" width="200">
 
 # About
 <!-- <p style='text-align: justify;'>  -->

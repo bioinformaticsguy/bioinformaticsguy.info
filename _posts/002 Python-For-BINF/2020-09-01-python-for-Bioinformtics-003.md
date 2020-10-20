@@ -7,6 +7,7 @@ subtitle: Operators and operands make EXPRESSIONS.
 series: PYTHON FOR BIOINFORMATICS
 series_sing: true
 video_number: 3
+video_id: uwxErM5ehtc
 description: There could be numerous possible python Expressions. After learning few different types you will be able to understand most of the python expressions that you will ever came across.
 
 optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/c_scale,h_380/v1596701389/002%20Python-for-Bioinformatics/Python-for-Bioinformatics-003.png
@@ -21,7 +22,7 @@ author: alihassan
 paginate: true
 ---
 
-{% include youtube_embed.html id="uwxErM5ehtc" %}
+{% include youtube_embed.html %}
 
 
 > Website is under developement written material will be added soon!
