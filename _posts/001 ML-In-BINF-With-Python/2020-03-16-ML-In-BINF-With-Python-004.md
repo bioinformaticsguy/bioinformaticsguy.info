@@ -10,8 +10,8 @@ video_number: 4
 video_id: 9wrU09vIbYE
 description: Let's learn how we can define the features and the lables from our data.
 
-
 optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/c_scale,h_380/v1596696392/Machine%20Learning%20For%20Bioinformatics/MLINBINF-004.png
+
 
 category: Machine Learning
 tags:
