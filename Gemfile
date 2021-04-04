@@ -6,3 +6,4 @@ gem "jekyll-paginate"
 gem "jekyll-paginate-content"
 gem "json"
 gem 'jekyll-watch'
+gem "kramdown-parser-gfm"
