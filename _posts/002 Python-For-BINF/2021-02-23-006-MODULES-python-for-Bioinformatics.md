@@ -7,7 +7,7 @@ subtitle: Modules will enable you to access millions and billions of useful func
 series: PYTHON FOR BIOINFORMATICS
 series_sing: true
 video_number: 6
-video_id: nvv5zkcHemB0KNoLUg0f54
+video_id: e7mbdD5Q6Oc
 description: Modules will enable you to access millions and billions of useful functions.
 
 optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/c_scale,h_380/v1596701389/002%20Python-for-Bioinformatics/Python-for-Bioinformatics-006.png
