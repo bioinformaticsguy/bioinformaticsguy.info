@@ -1,12 +1,12 @@
 ---
-date: 2021-04-08 12:36:40
+date: 2021-04-23 12:36:40
 layout: post
-title: COLLECTIONS
+title: DICTIONARIES
 subtitle: Now you can save different types of python objects in one variable.
 
 series: PYTHON FOR BIOINFORMATICS
 series_sing: true
-video_number: 8
+video_number: 9
 video_id: VP26CcroFH8
 description: Now you can save different types of python objects in one variable.
 

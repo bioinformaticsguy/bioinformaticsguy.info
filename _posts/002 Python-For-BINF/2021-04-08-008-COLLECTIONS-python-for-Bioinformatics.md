@@ -1,11 +1,11 @@
 ---
-date: 2021-04-23 12:36:40
+date: 2021-04-8 12:36:40
 layout: post
-title: DICTIONARIES
+title: COLLECTIONS
 subtitle: Let's save the tabular data in the dictionaries. 
 series: PYTHON FOR BIOINFORMATICS
 series_sing: true
-video_number: 9
+video_number: 8
 video_id: h4gQH-rtChA
 description: Let's save the tabular data in the dictionaries.
 

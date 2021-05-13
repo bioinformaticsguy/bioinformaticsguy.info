@@ -6,7 +6,8 @@ tags:
   - Bioinformatics
   - Programming
   - Python
-show_hero: false
+# show_hero: false
+
 menu:
   - title: Home
     url: /
@@ -15,7 +16,7 @@ menu:
   - title: Contact
     url: /contact
   # - title: Feed
-  #   url: /feed.xml
+    # url: /feed.xml
 email: bioinformaticsguy@gmail.com
 #disqus_username: disqus_username
 
@@ -32,7 +33,7 @@ linkedin_username: alihassan1697
 
 # Posts Settings
 show_time_bar: true
-show_modal_on_exit: false
+show_modal_on_exit: true
 show_modal_on_finish_post: true
 two_columns_layout: true
 
@@ -59,11 +60,11 @@ use_logo: false
 
 # Content paginator
 paginate_content:
-  enabled: true
+  enabled: false
   debug: false
   collections:
     - posts
-  auto: false
+  auto: true
   separator: "--page-break--"
   permalink: "/:num/"
   seo_canonical: true

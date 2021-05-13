@@ -1,7 +1,7 @@
 ---
 layout: author
 photo: /assets/img/uploads/aliHassan.jpg
-name: aliHassan
+name: alihassan
 display_name: Ali Hassan
 position: Chief Editor
 bio: Just a DNA explorer.
