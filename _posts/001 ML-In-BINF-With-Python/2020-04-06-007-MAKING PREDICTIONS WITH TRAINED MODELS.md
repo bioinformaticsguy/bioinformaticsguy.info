@@ -23,79 +23,49 @@ paginate: true
 
 {% include youtube_embed.html %}
 
+Welcome to the last and very important video of the whole series and in this video we will be making predictions by using our trained models. 
+
+First of all we have to create a sample. It should be a numpy array we will be using `np.array()` function and pass it a list of lists. There should be nine different numbers in our list because there were 9 features in our data. As we know that each of the attribute was in the range from one to ten the integers in the list should also be in the range from 1-10 just like the range of our data. The line of code below will just do the job:
 
 
+{% highlight python %}
+sample = np.array([[5,10,10,10,7,7,3,8,9]])
+{% endhighlight %}
 
-> Website is under developement written material will be added soon!
+Let's make the first protection and making prediction is way too easy. We will store it in the variable `result` and then use this function `model.predict()` we will have to pass it sample and print the result like so.
 
+{% highlight python %}
+result = loaded_model.predict(sample)
+print(result)
+{% endhighlight %}
 
- <!-- hi guys bye Anthony Skye here and
-welcome to the last and very important
-video of the whole series and in this
-video we will be making predictions by
-using the Train models so let's get
-started first of all we have to define
-our sample as a MPL II it should be an
-umpire array so entry dot array arrays
-are made by lists of lists so we have to
-put two two square brackets and next we
-have to define a list of nine different
-numbers as we know that each of the
-attribute was from one to ten and so we
-can just randomly put values of the nine
-columns from one to ten so let's make it
-5 1 1 1 2 1 3 1 1 so our sample is ready
-let's make the first protection and
-making prediction is way too easy we can
-call it result equals to loaded models
-taught predict and then we have to give
-it sample let's print our result oh we
-got some errors oh the spelling of
-protect our wrong p r e t ICT protect so
-we got the result 0 so what is mean by 0
-0 means that it is benign let's just do
-one more thing and we can make we can
-make a list of our classes and first
-will be benign next one will be
-malignant okay and we can print
-it is benign so let's take a sample from
-our data to see that it is really doing
-the same thing let's take this three one
-one one one two and one
-and the result should be benign let's
-take this second sample and use this
-over here now we need to copy everything
-over here I mean you to place our sum
-let's just write name this sample - okay
-and let's see what are the results it is
-also benign now I am just thinking of
-one more thing so let's open our excel
-file again
-over here you can see that this class is
-benign and most of the values are closer
-to one and this is a malignant class and
-most of the values are closer to ten so
-let's take another sample from that era
-which has malignant class we can take
-this eight and ten and okay we have to
-do the same thing again this will be
-sample three and we are changing the
-sample over here sample three let's run
-this and see what we get so the result
-of this sample three is malignant now
-why don't we do just one more thing now
-as we have seen that if the values are
-closer to ten then the result the result
-is malignant so let's change these
-values and make them closer to ten and
-see what happens
-so our first results should be benign
-now so now you can see that after
-changing the value so the first result
-is also change to malignant so that's
-all for this video and it is end of the
-story's machine learning in
-bioinformatics and thank you very much
-for watching and I will see you around
-in the next videos
-[Music]  -->
+`0` gets printed out and we know that zero represents "Benign" tumors. Let's do one thing to print the results in much more elegant way. We will create a list with two strings "Benign" and "Malignant", so that the zeroth item is bening and first item is malignent. Then we will index out the results in such a way that it prints "Benign" and "Malignent" accordingly. See the updated piece of code below: 
+
+{% highlight python %}
+classes = ["Benign", "Malignant"]
+sample = np.array([[5,10,10,10,7,7,3,8,9]])
+result = loaded_model.predict(sample)
+print(classes[int(result)])
+{% endhighlight %}
+
+Now we can see that Benign is printed.
+
+Finally let's take a sample from our data to see that it is really making the correct preduction i-e `[3,1,1,1,2,2,3,1,1]`. We will run the similar code: 
+
+{% highlight python %}
+sample2 = np.array([[3,1,1,1,2,2,3,1,1]])
+result = loaded_model.predict(sample2)
+print(classes[int(result)])
+{% endhighlight %}
+
+It printed Benign.
+
+After taking a quick look on the data we can figure out that the data points in which the feature values are closer to 10 are Malignent tumors. We can figure this out because our data is very simple for the sake of this beginner tutorieal.Let's take another sample `[8,10,10,8,7,10,9,7,1]` and this time the result should be Malignnent.
+
+{% highlight python %}
+sample3 = np.array([[8,10,10,8,7,10,9,7,1]])
+result = loaded_model.predict(sample3)
+print(classes[int(result)])
+{% endhighlight %}
+
+Wollah! the result is Malignent. That's all for this whole series. You can check out the whole script of this code on this [git hub repo](https://github.com/bioinformaticsguy/0001YS_ML_IN_BINF_WITH_PYTHON).
