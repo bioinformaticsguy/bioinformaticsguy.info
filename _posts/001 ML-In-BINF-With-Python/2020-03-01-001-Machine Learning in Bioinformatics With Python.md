@@ -26,7 +26,7 @@ If you are from the background of biology you don't need to get scared of this f
 
 So, if you are a person who wants to move from using the softwares to developing the softwares this series is made for you in this series we will be learning about:
 
-- Downloading the data from [UCI repository](https://archive.ics.uci.edu/ml/index.php) .
+- Downloading the data from [UCI repository](https://archive.ics.uci.edu/ml/index.php).
 - Pre-process that data, so that it is ready to use.
 - Finding out the features and labels from the data.
 - Developement of the Machine Learning models.

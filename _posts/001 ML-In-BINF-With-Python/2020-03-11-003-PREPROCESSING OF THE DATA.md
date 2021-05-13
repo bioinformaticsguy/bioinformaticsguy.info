@@ -89,7 +89,7 @@ data["Class"] = data["Class"].map(retBin)
 {% endhighlight %}
 
 
-Let me tell you that you can do the same thing in just one line you can do that by using the lambda functions. Lambda is an anonymous function and that is why it does not has a unique name so every lambda function that you will define has the same name lambda. The most ammazing thing about lambda functions is that You can define simple functios in just one line. Than we can add that line in place of the name of our self defined FIVE line function "retBin(x)". Just by comparing the two functions you can make sense of how the lambda functions are defined.
+Let me tell you that you can do the same thing in just one line you can do that by using the lambda functions. Lambda is an anonymous function and that is why it does not has a unique name so every lambda function that you will define has the same name lambda. The most ammazing thing about lambda functions is that You can define simple functios in just one line. Than we can add that line in place of the name of our self defined FIVE line function `retBin(x)`. Just by comparing the two functions you can make sense of how the lambda functions are defined.
 
 {% highlight python %}
 data["Class"] = data["Class"].map(lambda x: 1 if x == 4 else 0)
