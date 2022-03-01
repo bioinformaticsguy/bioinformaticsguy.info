@@ -1,16 +1,17 @@
 ---
-date: 2021-04-23 12:36:40
+date: 2022-01-23 12:36:40
 layout: post
-title: DICTIONARIES
-subtitle: Now you can save different types of python objects in one variable.
+title: READING AND WRITING FILES
+subtitle: In this video we will talk about how we can modify files in python.
+
 
 series: PYTHON FOR BIOINFORMATICS
 series_sing: true
-video_number: 9
-video_id: h4gQH-rtChA 
-description: Now you can save different types of python objects in one variable.
+video_number: 10
+video_id: z1L_J2CexNI 
+description: In this video we will talk about how we can modify files in python.
 
-optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/c_scale,h_380/v1596701389/002%20Python-for-Bioinformatics/Python-for-Bioinformatics-009.png
+optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/v1646178159/002%20Python-for-Bioinformatics/Python-for-Bioinformatics-010_ljfcel.png
 
 
 category: Python Basics

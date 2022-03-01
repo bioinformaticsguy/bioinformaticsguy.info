@@ -1,16 +1,19 @@
 ---
-date: 2021-04-23 12:36:40
+date: 2022-02-20 12:36:40
 layout: post
-title: DICTIONARIES
-subtitle: Now you can save different types of python objects in one variable.
+title: List Comprehensions in Python Part I of II
+subtitle: Comprehensions in python are very helpful as by using comprehensions you can not only simplify your code, you can reduce several lines of code to just one line as well.  Though it is not compulsory to learn how you can use comprehensions in python it is not that difficult and it takes your coding experience to a whole new level!
+
+
 
 series: PYTHON FOR BIOINFORMATICS
 series_sing: true
-video_number: 9
-video_id: h4gQH-rtChA 
-description: Now you can save different types of python objects in one variable.
+video_number: 11
+video_id: 8M4XN5_p_Dg 
+description: Not compulsory but a very useful topic.
 
-optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/c_scale,h_380/v1596701389/002%20Python-for-Bioinformatics/Python-for-Bioinformatics-009.png
+
+optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/v1646178173/002%20Python-for-Bioinformatics/Python-for-Bioinformatics-011_gak8mn.png
 
 
 category: Python Basics

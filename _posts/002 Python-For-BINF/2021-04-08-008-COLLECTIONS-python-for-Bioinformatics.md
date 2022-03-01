@@ -9,7 +9,7 @@ video_number: 8
 video_id: VP26CcroFH8
 description: Let's save the tabular data in the dictionaries.
 
-optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/c_scale,h_380/v1596701389/002%20Python-for-Bioinformatics/Python-for-Bioinformatics-009.png
+optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/c_scale,h_380/v1596701389/002%20Python-for-Bioinformatics/Python-for-Bioinformatics-008.png
 
 
 category: Python Basics
