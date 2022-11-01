@@ -7,3 +7,5 @@ gem "jekyll-paginate-content"
 gem "json"
 gem 'jekyll-watch'
 gem "kramdown-parser-gfm"
+
+gem "webrick", "~> 1.7"

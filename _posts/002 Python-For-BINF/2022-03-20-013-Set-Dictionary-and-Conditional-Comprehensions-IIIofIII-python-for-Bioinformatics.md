@@ -1,19 +1,17 @@
 ---
-date: 2022-02-20 12:36:40
+date: 2022-03-20 12:36:40
 layout: post
-title: List Comprehensions in Python Part I of II
-subtitle: Comprehensions in python are very helpful as by using comprehensions you can not only simplify your code, you can reduce several lines of code to just one line as well.  Though it is not compulsory to learn how you can use comprehensions in python it is not that difficult and it takes your coding experience to a whole new level!
-
+title: Set, Dictionary and Conditional Comprehensions III/III
+subtitle: This is advanced topic for Comprehensions.
 
 
 series: PYTHON FOR BIOINFORMATICS
 series_sing: true
-video_number: 11
-video_id: 8M4XN5_p_Dg 
-description: Not compulsory but a very useful topic.
+video_number: 13
+video_id: nQkpkMLez4Y
+description: This is advanced topic for Comprehensions.
 
-
-optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/v1646178173/002%20Python-for-Bioinformatics/Python-for-Bioinformatics-011_gak8mn.png
+optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/v1667340047/002%20Python-for-Bioinformatics/0013_ubfjma.png
 
 
 category: Python Basics
