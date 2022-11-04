@@ -11,7 +11,7 @@ video_number: 10
 video_id: z1L_J2CexNI 
 description: In this video we will talk about how we can modify files in python.
 
-optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/v1646178159/002%20Python-for-Bioinformatics/Python-for-Bioinformatics-010_ljfcel.png
+optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/v1646178159/002%20Python-for-Bioinformatics/010_ljfcel.png
 
 
 category: Python Basics
