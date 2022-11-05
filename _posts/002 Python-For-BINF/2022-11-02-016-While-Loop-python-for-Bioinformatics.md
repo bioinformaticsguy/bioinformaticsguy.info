@@ -2,14 +2,14 @@
 date: 2022-11-02 12:36:40
 layout: post
 title: While Loop
-subtitle: This is not my favourite kind of loop but still very importatnt.
+description: This is not my favourite kind of loop but still very importatnt. 
+subtitle: This is not my favourite kind of loop but still very importatnt. We will talk about my favourite kind of look in the next post.
 
 
 series: PYTHON FOR BIOINFORMATICS
 series_sing: true
 video_number: 16
 video_id: 1lVL33Rl5sE
-description: This is not my favourite kind of loop but still very importatnt.
 
 optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/v1667578760/002%20Python-for-Bioinformatics/0016_kzrz4k.png
 
@@ -32,6 +32,8 @@ paginate: true
 Loops are generally needed in following conditions:
 - When you want to do something over and over again you need loops.
 - It will keep on getting executed unless some condition is true.
+
+There are two basic kinds of loops (For and while). In this post we will be talking about only the while loop. Most of the things we will do in this post can also be done with the for loop as well. In the next video we will talk about the for loop.
 
 
 ## Basic Idea
