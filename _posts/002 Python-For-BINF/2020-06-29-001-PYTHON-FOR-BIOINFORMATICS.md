@@ -24,7 +24,38 @@ paginate: true
 
 {% include youtube_embed.html %}
 
-<!-- I am back with a brand new videoseries so let me tell you this I'm notgonna get in this outfit for the wholeseries but this is just to tell you thatI am also from the field of MedicalSciences and I know the difficulties andthe problems that biologists have toface whenever they try to learn a newprogramming language so if you are abiologist and you want to learn a newprogramming language you were at theright place in this video we are goingto learn a new programming language nowthis is a billion dollar question whichprogramming language they should learnit's in human nature that we like to gofor the stuff which is hard andattractive and everybody likes to talkabout that kind of stuff so let's tryGoogle Trends to find out who's hotthese days in programming languagesGoogle Trends let's start by searchingC++ since you might be watching thevideo from any part of the world let'schange it to worldwide okay there isthis butter of compare let's comparewith the languagehow about Java whoo there is a lot ofdifference between Java and C++ and Javais way more famous than C++ let's tryanother language is even less popularthan Java let's try another languagehow about Perl OhPerl is the least famous programminglanguage these days so let's try anotherone and I think that this programminglanguage is gonna win and his name isPYD too and python Ohso you can see that python is on the topof every other programming language youcan see this purple graph so now we knowwho's hot these days the next questionthat will arise in your mind is thatbeing about it is I don't have theprerequisites of programming skills ofdigital skills my math is terribleand in the realm of biology you mightalso think that I don't have thoseprogramming geek genes but when I do sothis is a valid question and I have agood news for you the good news isPython is one of the most easiestprogramming languages it's just likewriting something in English not onlythis I will also be explainingeverything with the examples taken frombiological sciences so by the end ofthis course you will be an expert inPython and you will also be able toimplement this in biological sciencesall you need is a working machine and amindset to achieve this goal so what areyou waiting for let's install Python nowin order to install Python just searchpython download click the first link ifyou want install for windows click herefor linux click here for mac click hereand for other go there so i already havea copy i'm gonna cancel it out and let'spull that copy out to the desktopalright so you will get an icon likethis double click it and click run sonow over here you just have to checkthis part because this is very importantand it will come in handy in future wecan get away with the Install Now buttonjust click here so it's gonna take awhile I'm gonna speed it up this processonce installation is complete you willsee something like this click closeonce it's installed go to the start andsearch ID yeaheither you have to click here and thisis the Python interpreter it might notlook just like this in your computer butit will look similar so let's try it ourfirst line of code prin hello to theworld of bioinformatics I hope myspelling the correct and you just havehit enter to print the statement and itis printed yay so we have done this incomeso let's say you don't have a computerin hand and all you have is a mobilephone or gaming console so so we haveanother solution for you you all youneed is a Google Drivego read Google Account go to your GoogleDrive once it's loaded click this newbutton and then go over here and themore and then select this Google Colabatteryit's gonna take some violent loading forthe very first time you can rename itprint helloand you can write the same code overhere and it will work just as fine helloto the world of bioinformatics and thenyou have to click this button to runthis code it might take some timebecause it has to allocate and connectfor the first time but once it'sconnected its boom done in just a secondyay it is printed so now you can untieporn on the go even on your mobile phoneit's that easy we will formally startfrom the next video so subscribe to keepan eye on the videos and that's all youneed to do so if you have any ideascomments questions or concerns just letme know in the comments down below thankyou very much for watching and I willsee you around in the next video[Music]  -->
+
+This is the very beginning of the brand new series Python for Bioinformatics. I also studied biology during my high school. I know the difficulties and the problems that biologists have to face whenever they try to learn a how to code. 
+
+So if you are a biologist and you want to learn a new programming language you are at the right place. In this video we are going to learn a new programming language. Now, this is a billion dollar question which programming language we should learn. It's in human nature that we like to go for the stuff which is easy to use and well known and about which everybody likes to talk. 
+
+So let's try Google Trends to find out who's hot these days in programming languages. 
+
+
+<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3140_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"/m/0jgqg","geo":"","time":"today 5-y"},{"keyword":"/m/07sbkfb","geo":"","time":"today 5-y"},{"keyword":"/m/05zrn","geo":"","time":"today 5-y"},{"keyword":"/m/05z1_","geo":"","time":"today 5-y"}],"category":0,"property":""}, {"exploreQuery":"date=today%205-y&q=%2Fm%2F0jgqg,%2Fm%2F07sbkfb,%2Fm%2F05zrn,%2Fm%2F05z1_","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
+
+
+So from the Google Trends, graph we can see that python is the most hot programming language these days. Also we can see that lately popularity of python is increasing exponentilally.
+
+
+The next question that will arise in your mind is that what will be the prerequsited to learn Python Programming. You might be scared that since you are from the realm of biology you don't have those programming geek genes. This is a valid question and though and I have a good news for you the good news is Python is one of the most easiest programming languages. 
+
+It's just like writing something in English not only this I will also be explaining everything with the examples taken from biological sciences so by the end of this series you will be an expert in Python. You will also be able to implement the skills you have learned in your computational problems related to biological sciences. 
+
+All you need is a working machine and a mind set to achieve this goal. So what are you waiting for let's install Python from this [link](https://www.python.org/downloads/). 
+
+
+After the instalation is complete open the python idle or open it in terminal by running the ```python``` command and then write the following code and hit Enter button.
+
+
+```python
+print('Hello to the world of Bioinformatics!')
+```
+
+Let's say you don't have a computer in hand and all you have is a mobile phone so we have another solution for you you all you need is a Google Drive. In you google drive you can create a google colab file and then run your python code from the browser in your Android, iPhone or even tablet. Click this [link](https://colab.research.google.com/notebooks/intro.ipynb) to get more information about Google Colab.
+
+
+Now you can write code on the go even on your mobile phone. It's that easy we will formally start coding from the next post. That is all for now see you soon :)
 
 
 
