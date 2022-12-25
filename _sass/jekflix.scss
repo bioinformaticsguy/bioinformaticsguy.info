@@ -1,1 +1,33 @@
 @import "main";
+
+iframe[src*="youtube"] {
+  aspect-ratio: 16/8.5;
+  height: fit-content;
+}
+
+.see-also {
+  position: sticky;
+  top: 2rem;
+
+  ul {
+    li {
+      margin-bottom: 1rem;
+      a {
+        color: #a6a6a6;
+
+        &:hover {
+          color: #333;
+        }
+
+        &.active {
+          color: blue;
+          font-weight: 700;
+
+          &::before {
+            content: "\00BB";
+          }
+        }
+      }
+    }
+  }
+}
