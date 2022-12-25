@@ -20,7 +20,7 @@ iframe[src*="youtube"] {
         }
 
         &.active {
-          color: blue;
+          color: rgb(240, 10, 10);
           font-weight: 700;
 
           &::before {
