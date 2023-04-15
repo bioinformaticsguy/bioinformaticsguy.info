@@ -2,7 +2,7 @@
 date: 2023-04-01 12:36:40
 layout: post
 title: Exception Handling
-description: Let's handle exceptional cases.
+description: Let's handle exceptional cases in Python.
 subtitle: Avoiding Disasters | Exception Handling Best Practices for Bioinformaticieans
 
 series: PYTHON FOR BIOINFORMATICS
