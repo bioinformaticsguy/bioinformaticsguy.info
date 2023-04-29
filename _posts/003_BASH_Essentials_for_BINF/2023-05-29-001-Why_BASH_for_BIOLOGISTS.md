@@ -15,8 +15,8 @@ optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/v1682
 
 category: Python Basics
 tags:
-  - Python
-  - Basics
+  - BASH
+  - ESSENTIALS
   - Bioinformatics
 author: alihassan
 paginate: true
