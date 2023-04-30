@@ -35,7 +35,7 @@ In this series, we'll be exploring the power of Bash commands and most important
 
 # What is Bash?
 
-"If you've seen any movies about hacking, you're probably familiar with black scenes with green text. The hacker sits at the computer, fingers flying across the keyboard, as lines of code and text scroll rapidly across the screen. 
+If you've seen any movies about hacking, you're probably familiar with black scenes with green text. The hacker sits at the computer, fingers flying across the keyboard, as lines of code and text scroll rapidly across the screen. 
 
 <p style="text-align: center;" style="color:red;"> But what exactly is the hacker doing? What is this mysterious text-based interface that they're using?</p>
 
@@ -84,7 +84,7 @@ Almost always you will be working with either from your Mac, Windows or a machin
 Once you have successfully openend the terminal you should see something like below:
 
 
-[![Alt text](https://res.cloudinary.com/bioinformaticsguy/image/upload/v1682857850/003_BEB/001/Screenshot_2023-04-30_at_14.26.52_xetaqj.png)](https://digitalocean.com)
+[![Alt text](https://res.cloudinary.com/bioinformaticsguy/image/upload/v1682857850/003_BEB/001/Screenshot_2023-04-30_at_14.26.52_xetaqj.png)](https://www.youtube.com/c/BioinformaticsGuy)
 
 > Information about running terminal on Windows and Linux machine will be added soon!
 
