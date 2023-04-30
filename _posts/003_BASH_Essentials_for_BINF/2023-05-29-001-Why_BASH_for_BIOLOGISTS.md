@@ -22,12 +22,15 @@ author: alihassan
 paginate: true
 ---
 
-{% include youtube_embed.html %}
+[![Alt text](https://res.cloudinary.com/bioinformaticsguy/image/upload/v1682857732/003_BEB/001/Colorful_Freelancer_YouTube_Thumbnail_fgwr6r.png)](https://www.youtube.com/c/BioinformaticsGuy)
 
-Video Coming Soon...
+
+<!-- {% include youtube_embed.html %} -->
+
 
 <!-- https://jupytext.readthedocs.io/en/latest/using-cli.html -->
 <!-- jupytext --to markdown ForLoops-IIofII.ipynb -->
+
 
 
 In this series, we'll be exploring the power of Bash commands and most importantly why learning Bash is crucial for Biologists to enter in the realm of Bioinformatics?
