@@ -3,7 +3,7 @@ date: 2023-04-28 12:36:40
 layout: post
 title: Why biologists need to learn BASH?
 description: Learn why mastering Bash commands and the Command Line Interface is crucial for unlocking the full potential of bioinformatics in this essential guide for biologists.
-subtitle: Unlocking the Full Potential of Bioinformatics with Command Line Master
+subtitle: Unlocking the Full Potential of Bioinformatics with Command Line
 
 series: BASH Essentials for Bioinformatics
 series_sing: true
