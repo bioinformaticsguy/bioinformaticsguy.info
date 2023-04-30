@@ -10,7 +10,7 @@ series_sing: true
 video_number: 1
 video_id: 
 
-optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/v1682771311/003_BEB/Colorful_Freelancer_YouTube_Thumbnail_hrcstq.png
+optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/v1682857732/003_BEB/001/Colorful_Freelancer_YouTube_Thumbnail_fgwr6r.png
 
 
 category: Python Basics
@@ -54,7 +54,42 @@ You might have heard this term HPC. If not let me tell you that  Bash is importa
 
 With Bash, you can automate common tasks, manipulate and filter data, and even create your own custom scripts to streamline your workflow. Whether you're just getting started in bioinformatics or you're an experienced researcher, understanding Bash commands is a valuable skill that can take your data analysis to the next level.
 
-Next, we'll dive into the basics of Bash commands and how they can be used for analysing biological data. Thanks for watching, and we'll see you in the next video!
+# How to get started?
+
+It depends on what kind of machine you will be using. Some machines will offer you full functionalilty and some machines will offer you limited functionality. In some machines it will be very easy to open the terminal and some machines you will have to do some effort to get started. 
+
+## Mac
+Almost always you will be working with either from your Mac, Windows or a machine in which Linux is already running. Let's start with what you will have to do if you wanna work on mac. It is the most simple of all actually.
+
+| To open the Terminal on a Mac, you can follow these steps below!
+
+1. Click on the Launchpad icon in the Dock (or alternatively, click on the Spotlight icon in the menu bar, or press Command + Spacebar) to bring up the search field.
+
+2. Type "Terminal" in the search field.
+
+3. Click on the Terminal app when it appears in the search results.
+
+| Alternatively, you can also open Terminal using the Finder
+
+1. Open a Finder window.
+
+2. Click on "Applications" in the sidebar.
+
+3. Scroll down and open the "Utilities" folder.
+
+4. Double-click on the "Terminal" app to launch it.
+
+5. Once the Terminal app is open, you can start typing commands and using the command-line interface.
+
+Once you have successfully openend the terminal you should see something like below:
+
+
+[![Alt text](https://res.cloudinary.com/bioinformaticsguy/image/upload/v1682857850/003_BEB/001/Screenshot_2023-04-30_at_14.26.52_xetaqj.png)](https://digitalocean.com)
+
+> Information about running terminal on Windows and Linux machine will be added soon!
+
+
+Next, we'll dive into the basics of Bash commands and how they can be used for analysing biological data. Thanks for your time and will see you next time ;)
 
 <!-- For example, a common bioinformatics task is to parse large files
 containing genomic or proteomic data. If an error occurs during parsing,
