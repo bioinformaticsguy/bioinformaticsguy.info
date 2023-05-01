@@ -10,7 +10,7 @@ series_sing: true
 video_number: 19
 video_id: KssR2QMp7lQ
 
-optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/v1680437704/00019_PythonForBioinformatics_nwbciy.png
+optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/v1682903082/002%20Python-for-Bioinformatics/00019_PythonForBioinformatics_ggmagy.png
 
 
 category: Python Basics

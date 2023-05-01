@@ -6,7 +6,7 @@ tags:
   - Bioinformatics
   - Programming
   - Python
-# show_hero: false
+show_hero: true
 
 menu:
   - title: Home
@@ -57,6 +57,7 @@ collections:
 paginate_path: "/page/:num/"
 show_get_theme_btn: false
 use_logo: false
+
 
 # Content paginator
 paginate_content:

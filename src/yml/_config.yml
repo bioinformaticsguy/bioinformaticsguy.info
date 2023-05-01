@@ -1,5 +1,5 @@
 # Site Settings
-#=include site.yml
+# =include site.yml
 
 # Social Media Settings
 # Remove the item if you don't need it
@@ -11,6 +11,9 @@
 # Advanced Settings
 #=include advanced.yml
 
+show_hero: true
+
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
@@ -21,6 +24,8 @@ collections:
 paginate_path: "/page/:num/"
 show_get_theme_btn: true
 use_logo: false
+
+
 
 # Content paginator
 paginate_content:

@@ -10,10 +10,10 @@ series_sing: true
 video_number: 1
 video_id: 
 
-optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/v1682857732/003_BEB/001/Colorful_Freelancer_YouTube_Thumbnail_fgwr6r.png
+optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/v1682901306/003_BEB/001/Colorful_Freelancer_YouTube_Thumbnail_mlokm3.png
 
 
-category: Python Basics
+category: BASH Essentials
 tags:
   - BASH
   - ESSENTIALS
@@ -22,7 +22,7 @@ author: alihassan
 paginate: true
 ---
 
-[![Alt text](https://res.cloudinary.com/bioinformaticsguy/image/upload/v1682857732/003_BEB/001/Colorful_Freelancer_YouTube_Thumbnail_fgwr6r.png)](https://www.youtube.com/c/BioinformaticsGuy)
+[![Alt text](https://res.cloudinary.com/bioinformaticsguy/image/upload/v1682901306/003_BEB/001/Colorful_Freelancer_YouTube_Thumbnail_mlokm3.png)](https://www.youtube.com/c/BioinformaticsGuy)
 
 
 <!-- {% include youtube_embed.html %} -->
