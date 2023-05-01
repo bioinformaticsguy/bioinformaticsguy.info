@@ -17,6 +17,14 @@ tags:
   - Python
   - Machine Learning
   - Beginner
+  - Training
+  - Bioinformatics
+  - Testing
+  - Accuracy
+  - SVC Classifier
+  - Logistic Regression
+
+
 author: alihassan
 paginate: true
 ---

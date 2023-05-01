@@ -17,6 +17,13 @@ tags:
   - Python
   - Machine Learning
   - Beginner
+  - Predictions
+  - Trained models
+  - Bioinformatics
+  - Features
+  - Benign
+  - Malignant
+
 author: alihassan
 paginate: true
 ---

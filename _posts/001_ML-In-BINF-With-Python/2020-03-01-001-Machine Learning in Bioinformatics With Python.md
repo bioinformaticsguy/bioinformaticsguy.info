@@ -2,18 +2,25 @@
 date: 2020-03-01 12:26:40
 layout: post
 title: Machine Learning in Bioinformatics With Python
-subtitle: Intro of the series
+subtitle: Unlocking the Potential of ML in Bioinformatics  through a Hands-On Video Series for Beginners
 series: A Beginner's Guide to AI in Bioinformatics with Python
 series_sing: true
 video_number: 1
 video_id: YIdL6sJSoGE
-description: Let's learn Machine Learning basics in PYTHON. This is a series for people who have a background of Biology and are willing to learn Bioinformatics.
+description: Join our bioinformatics and machine learning video series for beginners, covering preprocessing, model development, and deployment using Python and key libraries like Pandas, Numpy, Pickle4, and Scikit-learn. Learn through hands-on, real-world data examples and start working on your own projects. Perfect for beginners and experienced programmers alike!
+
 optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/c_scale,h_380/v1596696392/Machine%20Learning%20For%20Bioinformatics/MLINBINF-001.png
 category: Machine Learning
 tags:
   - Python
   - Machine Learning
   - Beginner
+  - UCI Repository
+  - Artificial Intelligence
+  - Pandas
+  - NumPy
+  - Scikit-learn
+
 author: alihassan
 paginate: true
 ---

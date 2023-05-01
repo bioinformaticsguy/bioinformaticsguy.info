@@ -15,6 +15,9 @@ tags:
   - Python
   - Machine Learning
   - Beginner
+  - UCI Machine Learning Repository
+  - Breast cancer dataset
+  - Downloading Data
 author: alihassan
 paginate: true
 ---

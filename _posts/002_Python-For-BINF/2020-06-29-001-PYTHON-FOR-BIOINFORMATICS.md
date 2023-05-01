@@ -2,13 +2,13 @@
 date: 2020-06-29 12:26:40
 layout: post
 title: PYTHON FOR BIOINFORMATICS
-subtitle: Series Intro.
+subtitle: Exploring the Intersection of Biology and Programming with Python.
 
 series: PYTHON FOR BIOINFORMATICS
 series_sing: true
 video_number: 1
 video_id: iy9SETmplcU
-description: If you have never learned programing language and you are from the field of Biology. You can learn python with examples from the realm of Biology. 
+description: We will explore real-world examples from biology, such as DNA and RNA sequence manipulation, and learn the basics of Python programming language in this Python for Bioinformatics series. Whether you're a biologist with no coding experience or an experienced programmer, we will teach you how to apply your skills to solve computational problems related to biological sciences. Don't miss out on this exciting opportunity to take your first steps into the world of Bioinformatics with Python!
 
 optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/c_scale,h_380/v1596701389/002%20Python-for-Bioinformatics/Python-for-Bioinformatics-001.png
 
@@ -18,6 +18,10 @@ tags:
   - Python
   - Basics
   - Bioinformatics
+  - DNA
+  - RNA
+  - Sequences
+  
 author: alihassan
 paginate: true
 ---

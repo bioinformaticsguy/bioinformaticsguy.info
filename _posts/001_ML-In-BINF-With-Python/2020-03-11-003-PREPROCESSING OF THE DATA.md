@@ -16,6 +16,11 @@ tags:
   - Python
   - Machine Learning
   - Beginner
+  - Preprocessing
+  - CSV
+  - UCI Repository
+  - Missing Values
+  - Data Cleaning
 author: alihassan
 paginate: true
 ---

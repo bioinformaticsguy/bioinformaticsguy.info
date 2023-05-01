@@ -18,6 +18,10 @@ tags:
   - Python
   - Machine Learning
   - Beginner
+  - Features
+  - Labels
+  - Binary Classification
+  - NumPy
 author: alihassan
 paginate: true
 ---
