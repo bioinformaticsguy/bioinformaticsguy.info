@@ -8,7 +8,7 @@ subtitle: Unlocking the Full Potential of Bioinformatics with Command Line
 series: BASH Essentials for Bioinformatics
 series_sing: true
 video_number: 1
-video_id: 
+video_id: YAwJZLIoOxI
 
 optimized_image: https://res.cloudinary.com/bioinformaticsguy/image/upload/v1683210567/003_BEB/001/Colorful_Freelancer_YouTube_Thumbnail_1_yeg9xl.png
 
@@ -26,10 +26,11 @@ author: alihassan
 paginate: true
 ---
 
-[![Alt text](https://res.cloudinary.com/bioinformaticsguy/image/upload/v1683210567/003_BEB/001/Colorful_Freelancer_YouTube_Thumbnail_1_yeg9xl.png)](https://www.youtube.com/c/BioinformaticsGuy)
+<!-- [![Alt text](https://res.cloudinary.com/bioinformaticsguy/image/upload/v1683210567/003_BEB/001/Colorful_Freelancer_YouTube_Thumbnail_1_yeg9xl.png)](https://www.youtube.com/c/BioinformaticsGuy) -->
 
 
-<!-- {% include youtube_embed.html %} -->
+{% include youtube_embed.html %}
+
 
 
 <!-- https://jupytext.readthedocs.io/en/latest/using-cli.html -->
@@ -51,17 +52,20 @@ This interface is known as a Command Line Interface, or CLI for short. It's a wa
 
 # Why BASH for Biologists?
 
-As biologists, we work with a lot of data - whether it's genetic sequences, protein structures, or experimental results. And while there are some software tools available to help us analyse this data, however if you want to create your own tool and to use it you will need to do that in BASH.
+Well there are so many reasons but I will give you 2 most important reasons. 
+
+1. As biologists, we work with a lot of data - whether it's genetic sequences, protein structures, or experimental results. And while there are some software tools available to help us analyse this data, however if you want to use the latest and greatest cutting edge open source Bioinformatics tools then learning the basics of BASH can come in handy because most of the latest Bioinformatics tools dont come with Graphical User Interface. 
+2. When we are working with big data you have to use supercomputers and it is rather difficult to buy and maintain a supercomputer in your home. So, those super computers are present in specific locations where they can be kept cool and maintained they way they are supposed to be maintained. The good thing is that you can access those supercomputers and run your Bioinformatics Pipelines from the comfort of your laptop just by using BASH. Those supercomputers are generally known as HPC’s.
 
 # What and why is HPC?
 
-You might have heard this term HPC. If not let me tell you that  Bash is important for bioinformaticians working with high-performance computing (HPC) clusters. These clusters are essential for processing large-scale bioinformatics datasets, but they require a solid understanding of Bash commands to navigate and interact with the system because usually they dont come with a GUI so you have to do all the things by using bash commands. From opening a folder to copying files and running scripts.
+You might have heard this term HPC. These are known as high-performance computing (HPC) clusters. These clusters are essential for processing large-scale bioinformatics datasets, but they require a solid understanding of Bash commands to navigate and interact with the system because usually they don’t come with a GUI so you have to do all the things by using bash commands. From opening a folder to copying files and running scripts.
 
 # Things you can do with BASH
 
 With Bash, you can automate common tasks, manipulate and filter data, and even create your own custom scripts to streamline your workflow. Whether you're just getting started in bioinformatics or you're an experienced researcher, understanding Bash commands is a valuable skill that can take your data analysis to the next level.
 
-# How to get started?
+<!-- # How to get started?
 
 It depends on what kind of machine you will be using. Some machines will offer you full functionalilty and some machines will offer you limited functionality. In some machines it will be very easy to open the terminal and some machines you will have to do some effort to get started. 
 
@@ -93,8 +97,8 @@ Once you have successfully openend the terminal you should see something like be
 
 [![Alt text](https://res.cloudinary.com/bioinformaticsguy/image/upload/v1682857850/003_BEB/001/Screenshot_2023-04-30_at_14.26.52_xetaqj.png)](https://www.youtube.com/c/BioinformaticsGuy)
 
-> Information about running terminal on Windows and Linux machine will be added soon!
+> Information about running terminal on Windows and Linux machine will be added soon! -->
 
 
-Next, we'll dive into the basics of Bash commands and how they can be used for analysing biological data. Thanks for your time and will see you next time ;)
+Next, we'll learn how you can access bach ot terminal on your machine, be it mac, linux or windows. All different operating systems will be covered. Thanks for your time and will see you next time ;)
 
