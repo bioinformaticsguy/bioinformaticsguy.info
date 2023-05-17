@@ -57,8 +57,6 @@ This realization had a huge impact on Ali Hassan and there forth paved his into 
 
 
 
-
-
 ## 2018
 - Started working as a Research Associate at [Sabz-Qalam](https://www.linkedin.com/company/sabz-qalam/about/).
     - Delivered 3 lectures on fundamentals of Python Programming.
