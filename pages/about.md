@@ -14,7 +14,7 @@ Ali Hassan is determined and committed to achieve his goal while enjoying the pr
 This realization had a huge impact on Ali Hassan and there forth paved his into completing the degree with further commitment and interest. He knew that to make difference and to learn more from this degree he had to comminute his education that took to pursuing a Master's degree in [Masters in Bioinformatics at Universität des Saarlandes](https://www.uni-saarland.de/en/study/programmes/master/bioinformatics.html) in Germany, and furthermore he is to continue on to a Ph.D.
 
 
-# Portfolio
+<!-- # Portfolio
 
 ## 2023
 
@@ -65,4 +65,4 @@ This realization had a huge impact on Ali Hassan and there forth paved his into 
 
 ## 2015
 - Started Bachelors in Bioinformatics at Forman Christian College.
-
+ -->
