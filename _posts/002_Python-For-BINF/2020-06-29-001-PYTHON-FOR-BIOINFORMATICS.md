@@ -1,7 +1,7 @@
 ---
 date: 2020-06-29 12:26:40
 layout: post
-title: PYTHON FOR BIOINFORMATICS
+title: Python for Bioinformatics
 subtitle: Exploring the Intersection of Biology and Programming with Python.
 
 series: PYTHON FOR BIOINFORMATICS
