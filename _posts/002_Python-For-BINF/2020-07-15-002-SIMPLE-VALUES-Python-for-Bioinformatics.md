@@ -1,7 +1,7 @@
 ---
 date: 2020-07-15 12:26:40
 layout: post
-title: SIMPLE VALUES
+title: Simple Values
 subtitle: The building Blocks.
 
 series: PYTHON FOR BIOINFORMATICS
