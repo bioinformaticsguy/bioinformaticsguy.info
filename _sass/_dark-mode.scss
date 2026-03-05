@@ -1,0 +1,297 @@
+/* =============================================
+   Dark mode toggle button
+   ============================================= */
+
+#dark-mode-toggle {
+  float: right;
+  width: rem(30px);
+  height: rem(30px);
+  cursor: pointer;
+  margin: 0 rem(15px) 0 0;
+
+  @include media(">=sm") {
+    margin: 0 rem(20px) 0 0;
+  }
+
+  #dark-mode-moon {
+    width: rem(20px);
+    height: rem(20px);
+    fill: $accentDark;
+    stroke: none;
+    margin: rem(5px);
+    display: block;
+  }
+
+  #dark-mode-sun {
+    width: rem(20px);
+    height: rem(20px);
+    fill: none;
+    stroke: $accentDark;
+    stroke-width: 2;
+    stroke-linecap: round;
+    margin: rem(5px);
+
+    circle {
+      fill: $accentDark;
+      stroke: $accentDark;
+    }
+  }
+}
+
+/* Icon colors when header turns light on scroll (light mode only) */
+body.light:not(.main-page):not(.dark-mode) #dark-mode-toggle {
+  #dark-mode-moon {
+    fill: $primaryDark;
+  }
+
+  #dark-mode-sun {
+    stroke: $primaryDark;
+
+    circle {
+      fill: $primaryDark;
+      stroke: $primaryDark;
+    }
+  }
+}
+
+/* =============================================
+   Dark mode — applied to all pages
+   ============================================= */
+
+body.dark-mode {
+
+  /* Background for non-home pages */
+  &:not(.main-page) {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+  }
+
+  /* Keep header dark even when user scrolls (overrides .light class) */
+  .bar-header {
+    background-color: $primaryDark !important;
+    box-shadow: none !important;
+
+    .icon-search,
+    .icon-menu {
+      fill: $accentDark !important;
+    }
+
+    .logo a,
+    .version {
+      color: $accentDark !important;
+    }
+
+    #dark-mode-moon {
+      fill: $accentDark;
+    }
+
+    #dark-mode-sun {
+      stroke: $accentDark;
+
+      circle {
+        fill: $accentDark;
+        stroke: $accentDark;
+      }
+    }
+  }
+
+  /* ---- Post/Page content ---- */
+  .post-content {
+    p, li, span {
+      color: #e0e0e0;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: #f0f0f0;
+    }
+
+    h1.post-title {
+      color: #f0f0f0;
+    }
+
+    p.post-subtitle {
+      color: #a0a0a0;
+    }
+
+    p.post-info {
+      color: #a0a0a0;
+    }
+
+    .icon-clock,
+    .icon-calendar {
+      fill: #a0a0a0;
+    }
+
+    a {
+      color: #ff4d57;
+
+      &:hover {
+        color: #ccc;
+      }
+    }
+
+    blockquote {
+      border-left-color: #666;
+
+      p {
+        color: rgba(255, 255, 255, 0.7);
+      }
+    }
+
+    hr {
+      border-color: #444;
+    }
+
+    table {
+      th, td {
+        border-color: #444;
+        color: #e0e0e0;
+      }
+
+      th {
+        background-color: #2a2a2a;
+      }
+
+      tr:nth-child(even) {
+        background-color: #222;
+      }
+    }
+
+    .tags a {
+      color: #ccc;
+      border-color: #555;
+
+      &:hover {
+        color: $primaryDark;
+        background-color: #e0e0e0;
+      }
+    }
+  }
+
+  /* ---- Contact form ---- */
+  .contact-form {
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      background-color: #2a2a2a;
+      color: #e0e0e0;
+      border-bottom-color: #555;
+    }
+  }
+
+  /* ---- Progress bar ---- */
+  .progress-bar {
+    background-color: #1a1a1a;
+  }
+
+  /* ---- TOC ---- */
+  .toc {
+    background-color: #242424;
+    border-color: #444;
+
+    a {
+      color: #ccc;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  /* ---- See also sidebar ---- */
+  .see-also {
+    h2 {
+      border-bottom-color: #444;
+      color: #f0f0f0;
+    }
+
+    ul li a {
+      color: #a0a0a0;
+
+      &:hover {
+        color: #ccc;
+      }
+
+      &.active {
+        color: #ff4d57;
+      }
+    }
+  }
+
+  /* ---- Author section ---- */
+  .author {
+    background: #242424;
+
+    .def {
+      color: #888;
+    }
+
+    .name a {
+      color: #f0f0f0;
+
+      &:hover {
+        color: #ccc;
+      }
+    }
+
+    .desc {
+      color: #ccc;
+    }
+
+    a {
+      fill: #aaa;
+
+      &:hover {
+        fill: #ff4d57;
+      }
+    }
+  }
+
+  /* ---- Footer ---- */
+  footer {
+    background: #1a1a1a;
+    border-top-color: #333;
+
+    p {
+      color: #aaa;
+    }
+
+    a {
+      fill: #666;
+      color: #888;
+
+      &:hover {
+        fill: #ff4d57;
+      }
+    }
+  }
+
+  /* ---- Sidebar menu ---- */
+  aside.sidebar {
+    background-color: #1e1e1e;
+
+    h2 {
+      color: #e0e0e0;
+      border-bottom-color: #444;
+    }
+
+    nav ul li a {
+      color: #e0e0e0;
+
+      &:hover {
+        color: #fff;
+        background: $themeColor;
+      }
+    }
+  }
+
+  /* ---- Pagination ---- */
+  .pagination a {
+    color: #ccc;
+    border-color: #444;
+
+    &:hover {
+      background-color: #333;
+    }
+  }
+}
