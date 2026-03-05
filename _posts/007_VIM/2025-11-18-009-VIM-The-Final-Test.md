@@ -1362,6 +1362,6 @@ The VIM community thrives on sharing knowledge. Now you can contribute.
 **Commands Mastered: 100+**  
 **Skills Gained: Priceless**  
 
-Now go forth and edit efficiently. Your bioinformatics work will never be the same!
+Now go forth and edit efficiently. Your bioinformatics work will never be the same.
 
 {% include next-prev.html %}
